@@ -1,0 +1,12 @@
+---
+name: stackradar
+title: StackRadar
+version: "0.2.0"
+maintainer: support@stackradar.io
+description: Vulnerabilities on the images running in your cluster, ranked by CVSS, EPSS and CISA KEV, with the upgrade that fixes them.
+url: https://github.com/lockdep/stackradar
+category: security
+configuration:
+  CLUSTER_ID:
+    label: "Civo cluster ID, used as the StackRadar cluster id"
+    value: "CIVO:CLUSTER_ID"
