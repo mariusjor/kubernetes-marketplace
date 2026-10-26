@@ -4,7 +4,7 @@ set -eu
 
 STACK="stackradar"
 CHART="oci://ghcr.io/lockdep/helm-charts/stackradar"
-CHART_VERSION="0.2.1"
+CHART_VERSION="0.2.2"
 NAMESPACE="stackradar"
 
 # The chart ships public fixture values for its secrets and never generates
